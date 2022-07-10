@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[mathod 1]]>
+    </line>
+    <line>
+      <![CDATA[mathod 2]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-07T20:09:25 IST" name="Default suite" finished-at="2022-07-07T20:09:26 IST" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2022-07-07T20:09:25 IST" name="Default test" finished-at="2022-07-07T20:09:26 IST" duration-ms="47">
+      <class name="demo1._1Excecution">
+        <test-method signature="login()[pri:0, instance:demo1._1Excecution@50a638b5]" started-at="2022-07-07T20:09:25 IST" name="login" finished-at="2022-07-07T20:09:26 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[mathod 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:demo1._1Excecution@50a638b5]" started-at="2022-07-07T20:09:26 IST" name="logout" finished-at="2022-07-07T20:09:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[mathod 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- demo1._1Excecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
